@@ -1,40 +1,20 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:system-ui,sans-serif;background:#f8f8fa;min-height:100vh}
 .app{max-width:600px;margin:0 auto;padding:16px}
-.header{display:flex;align-items:center;gap:12px;padding:16px 0}
-.menu-icon{font-size:22px}
-.header-title{font-size:18px;font-weight:600;letter-spacing:2px}
-.hero{padding:20px 0;position:relative}
-.house-title{font-size:24px}
-.house-desc{color:#999;font-size:14px;margin-top:4px}
-.refresh-btn{position:absolute;right:0;top:20px;border:1px solid #ddd;background:ddinnt-size:14ppx;padding:er:1px s:8px 20px;foveborder-colorkground:#fffng:20px;mabagn-items::12px}
-.e8f5e9;color:#4a9;padding:3px 10px;border-radius:10px;font-size:12px}
-.entry-title{flex:1;font-size:15px;color:#333}
-.entry-time{font-size:12px;color:#999}
-.entry-body{font-size:15px;line-height:1.8;color:#444}
-.footer{text-align:center;padding:30px;color:#999;font-size:13px}
-
-body {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 50%, #ff9a9e 100%);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
-  position: relative;
-  padding: 20px;
-}
-
-.container {
-  max-width: 600px;
-  width: 100%;
-  text-align: center;
-  z-index: 2;
-  animation: fadeIn 1.2s ease;
-}
-
-@keyframes fadeIn {
+.header{display:flex;align-items:center;gap:10px;padding:16px 0}
+.header-icon{font-size:22px}
+.header-title{font-size:17px;font-weight:600;letter-spacing:2px;color:#333}
+.hero{padding:20px 0}
+.house-title{font-size:22px;color:#333}
+.house-desc{color:#999;font-size:13px;margin-top:4px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;padding:12px 0}
+.tab{border:1px solid #e0e0e0;background:#fff;padding:6px 14px;border-radius:16px;font-size:13px;cursor:pointer}
+.tab.active{background:#333;color:#fff;border-color:#333}
+.entry{background:#fff;border-radius:12px;padding:16px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+.entry-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.entry-tag{background:#e8f5e9;color:#4caf50;padding:2px 8px;border-radius:8px;font-size:11px}
+.entry-body{font-size:14px;line-height:1.8;color:#555}
+.footer{text-align:center;padding:30px;color:#bbb;font-size:12px}@keyframes fadeIn {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
