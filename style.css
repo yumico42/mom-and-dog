@@ -1,4 +1,13 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, "PingFang SC", sans-serif; background: #f8f8fa; min-height: 100vh; }
+.app { max-width: 600px; margin: 0 auto; padding: 16px; }
+.header { display: flex; align-items: center; gap: 12px; padding: 16px 0; }
+.menu-icon { font-size: 22px; color: #333; }
+.header-title { font-size: 18px; font-weight: 600; color: #333; letter-spacing: 2px; }
+.hero { padding: 20px 0; }
+.house-title { font-size: 24px; color: #333; }
+.house-icon { font-size: 24px; }
+.house-dp: esh-btn { float: right; margin-top: -40px; border: 1px solid #ddd; background: #fff; padding: 8px 16px; border-radius: 20px; font-size: 14px; cursor: pointer; }
 
 body {
   font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
