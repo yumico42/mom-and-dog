@@ -18,7 +18,8 @@ function createHeart() {
   var heart = document.createElement('div');
   heart.className = 'heart';
   heart.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-  heart.style.lef';zeath.random() * 16 + 14) + 'px';
+  heart.style.left = Math.random() * 100 + '%';
+  heart.style.fontSize = (Math.random() * 16 + 14) + 'px';
   heart.style.animationDuration = (Math.random() * 4 + 4) + 's';
   heartsContainer.appendChild(heart);
   setTimeout(function() { heart.remove(); }, 8000);
